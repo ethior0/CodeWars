@@ -1,8 +1,8 @@
 
 public class Kata {
 
-  public static int[] arrayDiff(int[] a, int[] b) {
-		
+	public static int[] arrayDiff(int[] a, int[] b) {
+	
 		int cc = 0;
 		int aux[] = new int[a.length];
 		
@@ -29,5 +29,5 @@ public class Kata {
 		}
 		
 		return ans;
-  }
+	}
 }
