@@ -1,6 +1,6 @@
 function validBraces(braces){
   let prevL = "";
-  while(braces.length != prevL.length) {
+  while(braces.length !== prevL.length) {
     prevL = braces;
     braces = braces
       .replace("{}", "")
